@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  server:
+    image: scrap_server_nodejs
+    ports:
+      - 8888:8888
+    volumes:
+      - ./:/home/node/app:Z
+    command: node index.js
+
