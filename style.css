@@ -4,8 +4,8 @@ html, body {
   background-color: #000;
   color: #FFF;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 2.5pt;
-  line-height: 2.5pt;
+  font-size: 5pt;
+  line-height: 5pt;
 }
 
 canvas {
