@@ -7,7 +7,7 @@ let ascii_div;
 function setup() {
   noCanvas();
   video = createCapture(VIDEO);
-  video.size(300, 100);
+  video.size(200, 80);
   ascii_div = createDiv();
   video.hide();
 }
